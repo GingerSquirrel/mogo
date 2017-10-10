@@ -1,27 +1,27 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.15
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "mogo", "..\..\..\..\Desktop\mogo\", "{0FD4B31B-1F2F-49F5-AD03-9CFEE9DDD1A5}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "mogo", "mogo\", "{0FD4B31B-1F2F-49F5-AD03-9CFEE9DDD1A5}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_60894"
-		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\Desktop\mogo\"
+		Debug.AspNetCompiler.PhysicalPath = "mogo\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60894\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.VirtualPath = "/localhost_60894"
-		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\Desktop\mogo\"
+		Release.AspNetCompiler.PhysicalPath = "mogo\"
 		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60894\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "60894"
-		SlnRelativePath = "..\..\..\..\Desktop\mogo\"
+		SlnRelativePath = "mogo\"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject

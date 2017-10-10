@@ -1,0 +1,10 @@
+﻿[
+  {
+    "outputFile": "css/_bootstrap.css",
+    "inputFile": "stylesheets/_bootstrap.scss"
+  },
+  {
+    "outputFile": "css/mogo.css",
+    "inputFile": "stylesheets/mogo.scss"
+  }
+]

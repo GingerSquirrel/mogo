@@ -1,0 +1,72 @@
+﻿.hero {
+	$hero-height: 1000px;
+	@include gradient-background-image(rgba(243,129,129,0.85),rgba(251,227,137,0.85),'../../images/bird.png', 15%);
+	height: $hero-height;
+	position: relative;
+
+	hr {
+		margin-top: 30px;
+		margin-bottom: 50px;
+		border-top-color: #fff;
+	}
+
+	&__container {
+		display: flex;
+		display: -webkit-box;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		align-items: center;
+		justify-content: center;
+		height: $hero-height - $navbar-height;
+	}
+
+	&__center {
+		display: flex;
+		justify-content: center;
+	}
+
+	&__title {
+		color: #fff;
+		text-align: center;
+
+
+		i {
+			font-size: 60px;
+			font-family: 'Kaushan Script', cursive;
+		}
+
+		h1 {
+			font-size: 150px;
+			font-weight: bold;
+			text-transform: uppercase;
+		}
+	}
+
+	.btn {
+		margin-bottom: 150px;
+	}
+
+	&__slidercontrols {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		margin-bottom: 30px;
+		color: #fff;
+		font-size: 16px;
+
+		&__item {
+			.progress {
+				height: 3px;
+				background-color: #fff;
+				border-radius: 0px;
+			}
+
+			.progress-bar {
+				background-color: rgba(243,129,129,1);
+				-webkit-box-shadow: none;
+				box-shadow: none;
+			}
+		}
+	}
+}

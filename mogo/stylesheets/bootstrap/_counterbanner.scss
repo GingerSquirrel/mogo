@@ -1,0 +1,28 @@
+﻿.counter-banner {
+	background-color: $mogoturquoise;
+	color: #fff;
+	font-weight: bold;
+
+
+	&__item {
+		padding-top: 50px;
+		padding-bottom: 50px;
+		border-right-color: rgba(255,255,255,0.3);
+		border-right-width: 2px;
+		border-right-style: solid;
+
+		&:first-of-type {
+			border-left-color: rgba(255,255,255,0.3);
+			border-left-width: 2px;
+			border-left-style: solid;
+		}
+	}
+
+	&__number {
+		font-size: 50px;
+	}
+
+	&__text{
+		font-size:12px;
+	}
+}
