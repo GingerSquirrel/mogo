@@ -1,0 +1,42 @@
+﻿.gallery{
+    height: 600px; 
+    display:grid; 
+    grid-column-gap:0px; 
+    grid-row-gap:0px; 
+    grid-template-columns: auto auto auto auto;
+
+    @media (max-width: $screen-md){
+        grid-template-columns: auto auto;
+    }
+
+
+    &__item{
+        background-color:none;
+        background-position:center;
+        background-size:cover;
+
+        &--long{
+            grid-column: 3 / span 1; 
+            grid-row: 1/ span 2; 
+
+            @media (max-width: $screen-md){
+                grid-column: 1 / span 1; 
+                grid-row: 3/ span 2; 
+            }
+        }
+
+        &__inner{
+            display:grid;
+            height:100%;
+
+            div{
+                background-color:red;
+            }
+        }
+
+    }
+
+
+
+
+}

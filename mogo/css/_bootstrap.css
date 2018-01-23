@@ -5230,6 +5230,31 @@ button.close {
     color: white;
     font-size: 16px;
     padding: 16px 32px; }
+  .imageunit__socialmedia {
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px; }
+  .imageunit__socialbtn {
+    padding: 8px;
+    color: #F38181;
+    background-color: #FBE389;
+    height: 41px;
+    width: 41px;
+    font-size: 18px;
+    display: inline-block;
+    margin-right: 1px; }
+    .imageunit__socialbtn:hover {
+      color: #fff;
+      background-color: #F38181; }
+  .imageunit__caption {
+    margin-top: 30px; }
+    .imageunit__caption__top {
+      font-weight: bold;
+      text-transform: uppercase; }
+    .imageunit__caption__bottom {
+      color: #999;
+      font-style: italic;
+      margin-top: 10px; }
   .imageunit img {
     width: 100%;
     opacity: 1;
@@ -5507,7 +5532,53 @@ button.close {
   .slider img {
     width: 100%; }
 
+blockquote {
+  border-left: none; }
+
+.carousel-control .glyphicon {
+  color: #333;
+  text-shadow: none; }
+
+span.glyphicon.glyphicon-chevron-left {
+  margin-left: 0px; }
+
+span.glyphicon.glyphicon-chevron-right {
+  margin-right: 0px; }
+
 /*cake*/
+.logobanner {
+  background-color: #EBEBEB; }
+  .logobanner__logo {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px; }
+
+.gallery {
+  height: 600px;
+  display: grid;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  grid-template-columns: auto auto auto auto; }
+  @media (max-width: 992px) {
+    .gallery {
+      grid-template-columns: auto auto; } }
+  .gallery__item {
+    background-color: none;
+    background-position: center;
+    background-size: cover; }
+    .gallery__item--long {
+      grid-column: 3 / span 1;
+      grid-row: 1/ span 2; }
+      @media (max-width: 992px) {
+        .gallery__item--long {
+          grid-column: 1 / span 1;
+          grid-row: 3/ span 2; } }
+    .gallery__item__inner {
+      display: grid;
+      height: 100%; }
+      .gallery__item__inner div {
+        background-color: red; }
+
 .modal-open {
   overflow: hidden; }
 

@@ -8,4 +8,24 @@
 	}
 }
 
+blockquote{
+    border-left:none;
+}
+
+.carousel-control{
+    .glyphicon{
+        color:#333;
+        text-shadow:none;
+    }
+}
+
+span.glyphicon.glyphicon-chevron-left{
+    margin-left:0px;
+}
+
+span.glyphicon.glyphicon-chevron-right{
+    margin-right: 0px;
+}
+
+
 /*cake*/
